@@ -4,6 +4,10 @@ from .models import User, db
 
 def init_routes(app):
 
+    @app.route('/', methods=['POST'])
+    def Home();
+        
+
     @app.route('/signup', methods=['POST'])
     def signup():
         data = request.json
