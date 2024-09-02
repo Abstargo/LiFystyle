@@ -1,23 +1,21 @@
 import React from "react"
-import { useNvigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 export default function Home()
 {
 
-    const navigate = useNvigate();
+    const navigate = useNavigate();
 
-    const handleClick = () =>
-    {
+    const handleClick = () => {
         navigate('/signin');
     }
 
-    return
-    (
+    return (
         <div>
             <h1>
-                Welcome to tha MAIN page.
+                Welcome to the MAIN page.
             </h1>
             <button onClick={handleClick}>Sign-In</button>
         </div>
-    )
+    );
 }

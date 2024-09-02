@@ -8,7 +8,7 @@ function SignIn() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/signin/signup")
+    navigate("/signup")
   }
 
   const handleSignIn = async () => {
