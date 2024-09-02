@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { RxAvatar } from "react-icons/rx";
 
 function SignIn() {
   const [username, setUsername] = useState('');
@@ -16,6 +17,11 @@ function SignIn() {
       const response = await axios.post(`${process.env.REACT_APP_API_URL}/signin`, { username, password });
       if (response.status === 200) {
         navigate('/');
+        return (
+          <nav>
+            <RxAvatar />
+          </nav>
+        )
       } else {
         console.log("try to sign up")
       }
