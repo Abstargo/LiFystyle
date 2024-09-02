@@ -15,7 +15,7 @@ function SignIn() {
     try {
       const response = await axios.post(`${process.env.REACT_APP_API_URL}/signin`, { username, password });
       if (response.status === 200) {
-        navigate('#');
+        navigate('/');
       } else {
         console.log("try to sign up")
       }
