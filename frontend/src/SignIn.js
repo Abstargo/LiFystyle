@@ -7,11 +7,17 @@ function SignIn() {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate("/signin/signup")
+  }
+
   const handleSignIn = async () => {
     try {
       const response = await axios.post(`${process.env.REACT_APP_API_URL}/signin`, { username, password });
       if (response.status === 200) {
-        navigate('/signup');
+        navigate('#');
+      } else {
+        console.log("try to sign up")
       }
     } catch (error) {
       console.error('Error signing in:', error.response ? error.response.data : error.message);
@@ -24,6 +30,7 @@ function SignIn() {
       <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
       <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
       <button onClick={handleSignIn}>Sign In</button>
+      <button onClick={handleClick}>Sign Up</button>
     </div>
   );
 }

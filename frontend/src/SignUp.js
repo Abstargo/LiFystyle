@@ -12,7 +12,7 @@ function SignUp() {
 		try {
 			const response = await axios.post(`${process.env.REACT_APP_API_URL}/signup`, { username, password });
 			if (response.status === 201) {
-				navigate('/signin');
+				navigate('/');
 			}
 			alert('User created successfully');
 		} catch (error) {
