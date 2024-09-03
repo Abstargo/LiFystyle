@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { RxAvatar } from "react-icons/rx";
 
-function SignIn() {
+function SignIn({ onSignIn }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
@@ -11,17 +10,18 @@ function SignIn() {
   const handleClick = () => {
     navigate("/signup")
   }
-
+ 
   const handleSignIn = async () => {
     try {
       const response = await axios.post(`${process.env.REACT_APP_API_URL}/signin`, { username, password });
       if (response.status === 200) {
-        navigate('/');
-        return (
-          <nav>
-            <RxAvatar />
-          </nav>
-        )
+        
+	 const userData = {
+		 accessToken: response.data.access_token
+	 };
+	 console.log(userData);
+	 onSignIn(userData);     
+	 navigate('/');
       } else {
         console.log("try to sign up")
       }
