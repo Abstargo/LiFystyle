@@ -31,9 +31,9 @@ function SignIn({ onSignIn }) {
   };
 
   return (
-    <div class="form-container">
-        <p class="title">Welcome Back !</p>
-      <form class="form">
+    <div className="form-container">
+        <p className="title">Welcome Back !</p>
+      <form className="form">
         <input type="text" class="input" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
         <input type="password" class="input" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
         <p class="page-link">
