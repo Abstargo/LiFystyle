@@ -32,7 +32,7 @@ function SignIn({ onSignIn }) {
 
   return (
     <div class="form-container">
-        <p class="title">Welcome My Nigga!!</p>
+        <p class="title">Welcome Back !</p>
       <form class="form">
         <input type="text" class="input" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
         <input type="password" class="input" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
