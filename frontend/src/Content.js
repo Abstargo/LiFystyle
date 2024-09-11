@@ -16,7 +16,7 @@ export default function Content()
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <ExampleCarouselImage text="Second slide" />
         <Carousel.Caption>
           <h3>Second slide label</h3>
