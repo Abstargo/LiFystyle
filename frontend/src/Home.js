@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 /**import { RxAvatar } from "react-icons/rx";*/
 import Bar from './Bar';
 import Content from "./Content";
+import Cards from "./Cards";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export default function Home({ user }) {
@@ -17,6 +19,7 @@ export default function Home({ user }) {
     <>
       <Bar user={user} handleClick={handleClick} />
       <Content />
+      <Cards />
     </>
   );
 }

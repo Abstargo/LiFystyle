@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import "./SignUp.css"
 
 function SignUp() {
 	const [username, setUsername] = useState('');
@@ -28,7 +29,61 @@ function SignUp() {
 	};
 
 	return (
-		<div>
+		<form 
+			className="form1"
+		>
+			<p className="title1">SignUp</p>
+			{error && <p style={{ color: 'red' }}>{error}</p>}
+			<p className="message">Signup now and get full access to our app</p>
+			<label>		
+					<input 
+						required="" 
+						placeholder="Username" 
+						type="text" 
+						className="input"
+						value={username} 
+						onChange={(e) => setUsername(e.target.value)} />
+			
+			</label>
+			<label>
+				<input 
+					required="" 
+					placeholder="Email" 
+					type="email"
+					className="input" 
+					value={email} 
+					onChange={(e) => setEmail(e.target.value) } />
+				
+			</label>
+			<label>
+				<input 
+					required="" 
+					placeholder="Password" 
+					type="password"
+					className="input" 
+					value={password} 
+					onChange={(e) => setPassword(e.target.value)} />
+			
+			</label>
+			<label>
+				<input 
+					required="" 
+					placeholder="Confirm Password" 
+					type="password"
+					className="input" 
+					value={password2} 
+					onChange={(e) => setPassword2(e.target.value)} />
+			</label>
+			<button type="button" className="submit" onClick={handleSignUp}>Sign Up</button>
+			<p className="signin">Already have an account ?<a href="/signin">Signin</a></p>
+		</form>
+	);
+}
+
+export default SignUp;
+
+/**
+ * <div>
 		<h1>Sign Up</h1>
 		{error && <p style={{ color: 'red' }}>{error}</p>}
 		<input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
@@ -37,7 +92,4 @@ function SignUp() {
 		<input type="password" placeholder="Password confirmation" value={password2} onChange={(e) => setPassword2(e.target.value)} />
 		<button onClick={handleSignUp}>Sign Up</button>
 		</div>
-	);
-}
-
-export default SignUp;
+ */
