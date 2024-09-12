@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Bar from './Bar';
 import Content from "./Content";
 import Cards from "./Cards";
+import Card0 from "./Card0";
 import Foot from "./Foot";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -23,7 +24,7 @@ export default function Home({ user }) {
       <div className="banner" ><h3 className="h" >Women</h3></div>
       <Cards />
       <div className="banner" ><h3 className="h" >Men</h3></div>
-      <Cards />
+      <Card0 />
       <Foot />
       
     </>

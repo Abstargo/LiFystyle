@@ -1,6 +1,6 @@
 import React from "react";
 
-function ExampleCarouselImage({ text })
+function ExampleCarouselImage({ s })
 {
     return (
         <div 
@@ -9,8 +9,9 @@ function ExampleCarouselImage({ text })
                 background:"#ccc", 
                 display:"flex", 
                 alignItems:"center", 
-                justifyContent:"center"}}>
-        <h2>{text}</h2>
+                justifyContent:"center"
+                }}>
+        <h2>{s}</h2>
 
         </div>
     )

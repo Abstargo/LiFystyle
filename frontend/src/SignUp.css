@@ -16,7 +16,7 @@
   
   .title1 {
     font-size: 28px;
-    color: royalblue;
+    color: rgb(64, 64, 67);
     font-weight: 600;
     letter-spacing: -1px;
     position: relative;
@@ -32,13 +32,13 @@
     width: 16px;
     border-radius: 50%;
     left: 0px;
-    background-color: royalblue;
+    background-color: rgb(115, 115, 115);
   }
   
   .title1::before {
     width: 18px;
     height: 18px;
-    background-color: royalblue;
+    background-color: rgb(97, 97, 98);
   }
   
   .title1::after {
@@ -110,7 +110,7 @@
   .submit {
     border: none;
     outline: none;
-    background-color: royalblue;
+    background-color: rgb(79, 80, 81);
     padding: 10px;
     border-radius: 10px;
     color: #fff;

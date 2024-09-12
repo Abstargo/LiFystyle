@@ -5,60 +5,90 @@ export default function Foot()
 {
 
         return (
-          
-          
-
-            <footer className="footer">
-                  <div className="footer__addr">
-                      <h1 className="footer__logo">LiFyStyle</h1>
         
-                          <h2>Contact</h2>
-    
-                       <address>
-                                5534 Somewhere In. The World 22193-10212<br />
+              <footer className="footer">
+                    <div className="footer__addr">
+                        <h1 className="footer__logo">LiFyStyle</h1>
+                            <h2>Contact</h2>  
+                               <address>
+                                  5534 Somewhere In. The World 22193-10212<br />
           
-                      <a className="footer__btn" href="mailto:example@gmail.com">Email Us</a>
-                        </address>
-                        </div>
+                                <a className="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+                              </address>
+                    </div>
   
-                               <ul className="footer__nav">
-                          <li className="nav__item">
-                  <h2 className="nav__title">Shop</h2>
+                    <ul className="footer__nav">
+                      <li className="nav__item">
+                        <h2 className="nav__title">Men</h2>
 
-              <ul className="nav__ul">
-                      <li>
-                        <a href="#">Men</a>
-                      </li>
+                        <ul className="nav__ul">
+                          <li>
+                            <a href="#">Jeans</a>
+                          </li>
 
-                <li>
-                  <a href="#">Women</a>
-                </li>
+                         <li>
+                            <a href="#">Jumpers</a>
+                          </li>
                     
-                <li>
-                  <a href="#">Kids</a>
-                </li>
-              </ul>
-            </li>
+                          <li>
+                            <a href="#">Leather</a>
+                          </li>
+                          <li>
+                            <a href="#">Shorts</a>
+                          </li>
+                          <li>
+                            <a href="#">Boots</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="nav__item">
+                        <h2 className="nav__title">Women</h2>
+
+                        <ul className="nav__ul">
+                          <li>
+                            <a href="#">Dresses</a>
+                          </li>
+
+                         <li>
+                            <a href="#">Jumpsuites</a>
+                          </li>
+                    
+                          <li>
+                            <a href="#">Shirts</a>
+                          </li>
+                          <li>
+                            <a href="#">T-shirts</a>
+                          </li>
+                          <li>
+                            <a href="#">Coats</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="nav__item">
+                        <h2 className="nav__title">Kids</h2>
+
+                        <ul className="nav__ul">
+                          <li>
+                            <a href="#">Shirts</a>
+                          </li>
+
+                         <li>
+                            <a href="#">T-shirts</a>
+                          </li>
+                    
+                          <li>
+                            <a href="#">Polos</a>
+                          </li>
+                          <li>
+                            <a href="#">Sweaters</a>
+                          </li>
+                          <li>
+                            <a href="#">Jackets</a>
+                          </li>
+                        </ul>
+                      </li>
             
-            <li className="nav__item nav__item--extra">
-              <h2 className="nav__title">Contacts</h2>
               
-              <ul className="nav__ul nav__ul--extra">
-                <li>
-                  <a href="#">Hardware Design</a>
-                </li>
-                
-                <li>
-                  <a href="#">Software Design</a>
-                </li>
-                
-                <li>
-                  <a href="#">Digital Signage</a>
-                </li>
-                
-              
-              </ul>
-            </li>
             
             <li className="nav__item">
               <h2 className="nav__title">Follow us</h2>
@@ -160,9 +190,7 @@ export default function Foot()
           <div className="legal">
             <p>&copy; 2019 Something. All rights reserved.</p>
             
-            <div className="legal__links">
-              <span>Made with <span className="heart">♥</span> remotely from Anywhere</span>
-            </div>
+            
           </div>
         </footer>
         )
