@@ -261,7 +261,7 @@
     margin-bottom: 1px;
   }
 
-  /* Banner */
+  /****************      Banner      ******************/
 
   .banner
   {
@@ -284,7 +284,7 @@
   }
 
 
-  /* Footer */
+  /****************     Footer      ***************/
 
   *, *:before, *:after {
     box-sizing: border-box;
@@ -433,7 +433,7 @@
     }
   }
 
-  /*Follow */
+  /*********   Follow ***************/
   ul {
     list-style: none;
   }

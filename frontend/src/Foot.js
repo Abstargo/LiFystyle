@@ -8,24 +8,24 @@ export default function Foot()
           
           
 
-            <footer class="footer">
-                  <div class="footer__addr">
-                      <h1 class="footer__logo">LiFyStyle</h1>
+            <footer className="footer">
+                  <div className="footer__addr">
+                      <h1 className="footer__logo">LiFyStyle</h1>
         
                           <h2>Contact</h2>
     
                        <address>
                                 5534 Somewhere In. The World 22193-10212<br />
           
-                      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+                      <a className="footer__btn" href="mailto:example@gmail.com">Email Us</a>
                         </address>
                         </div>
   
-                               <ul class="footer__nav">
-                          <li class="nav__item">
-                  <h2 class="nav__title">Shop</h2>
+                               <ul className="footer__nav">
+                          <li className="nav__item">
+                  <h2 className="nav__title">Shop</h2>
 
-              <ul class="nav__ul">
+              <ul className="nav__ul">
                       <li>
                         <a href="#">Men</a>
                       </li>
@@ -40,10 +40,10 @@ export default function Foot()
               </ul>
             </li>
             
-            <li class="nav__item nav__item--extra">
-              <h2 class="nav__title">Contacts</h2>
+            <li className="nav__item nav__item--extra">
+              <h2 className="nav__title">Contacts</h2>
               
-              <ul class="nav__ul nav__ul--extra">
+              <ul className="nav__ul nav__ul--extra">
                 <li>
                   <a href="#">Hardware Design</a>
                 </li>
@@ -60,22 +60,22 @@ export default function Foot()
               </ul>
             </li>
             
-            <li class="nav__item">
-              <h2 class="nav__title">Follow us</h2>
-              <ul class="example-2">
-  <li class="icon-content">
+            <li className="nav__item">
+              <h2 className="nav__title">Follow us</h2>
+              <ul className="example-2">
+  <li className="icon-content">
     <a
       href="https://linkedin.com/"
       aria-label="LinkedIn"
       data-social="linkedin"
     >
-      <div class="filled"></div>
+      <div className="filled"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
         fill="currentColor"
-        class="bi bi-linkedin"
+        className="bi bi-linkedin"
         viewBox="0 0 16 16"
         space="preserve"
       >
@@ -87,15 +87,15 @@ export default function Foot()
     </a>
     
   </li>
-  <li class="icon-content">
+  <li className="icon-content">
     <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
-      <div class="filled"></div>
+      <div className="filled"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
         fill="currentColor"
-        class="bi bi-github"
+        className="bi bi-github"
         viewBox="0 0 16 16"
         space="preserve"
       >
@@ -107,19 +107,19 @@ export default function Foot()
     </a>
     
   </li>
-  <li class="icon-content">
+  <li className="icon-content">
     <a
       href="https://www.instagram.com/"
       aria-label="Instagram"
       data-social="instagram"
     >
-      <div class="filled"></div>
+      <div className="filled"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
         fill="currentColor"
-        class="bi bi-instagram"
+        className="bi bi-instagram"
         viewBox="0 0 16 16"
         space="preserve"
       >
@@ -131,15 +131,15 @@ export default function Foot()
     </a>
     
   </li>
-  <li class="icon-content">
+  <li className="icon-content">
     <a href="https://youtube.com/" aria-label="Youtube" data-social="youtube">
-      <div class="filled"></div>
+      <div className="filled"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="16"
         fill="currentColor"
-        class="bi bi-youtube"
+        className="bi bi-youtube"
         viewBox="0 0 16 16"
         space="preserve"
       >
@@ -157,11 +157,11 @@ export default function Foot()
             </li>
           </ul>
           
-          <div class="legal">
+          <div className="legal">
             <p>&copy; 2019 Something. All rights reserved.</p>
             
-            <div class="legal__links">
-              <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+            <div className="legal__links">
+              <span>Made with <span className="heart">♥</span> remotely from Anywhere</span>
             </div>
           </div>
         </footer>
