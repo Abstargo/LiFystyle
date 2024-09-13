@@ -540,3 +540,13 @@
 .f1 {
   font-size: 17px;
 }
+
+.cdb 
+{
+  border-radius: 9px;
+  border-width: 2px;
+  width: 10rem;
+  display: block;
+  margin: auto;
+}
+
