@@ -14,7 +14,7 @@ export default function Foot()
               <ul className="example-2">
   <li className="icon-content">
     <a
-      href="https://linkedin.com/"
+      href="https://linkedin.com/in/james-iharo"
       aria-label="LinkedIn"
       data-social="linkedin"
     >
@@ -37,7 +37,7 @@ export default function Foot()
     
   </li>
   <li className="icon-content">
-    <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
+    <a href="https://www.github.com/Abstargo" aria-label="GitHub" data-social="github">
       <div className="filled"></div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
