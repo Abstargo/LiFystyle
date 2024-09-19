@@ -16,7 +16,7 @@
   
   .title1 {
     font-size: 28px;
-    color: rgb(64, 64, 67);
+    color: #3588bc;
     font-weight: 600;
     letter-spacing: -1px;
     position: relative;
@@ -32,13 +32,13 @@
     width: 16px;
     border-radius: 50%;
     left: 0px;
-    background-color: rgb(115, 115, 115);
+    background-color: #81a2c2;
   }
   
   .title1::before {
     width: 18px;
     height: 18px;
-    background-color: rgb(97, 97, 98);
+    background-color: #3588bc;
   }
   
   .title1::after {
@@ -48,7 +48,7 @@
   }
   
   .message, .signin {
-    color: rgba(88, 87, 87, 0.822);
+    color: rgba(37, 34, 34, 0.822);
     font-size: 14px;
   }
   
@@ -110,7 +110,7 @@
   .submit {
     border: none;
     outline: none;
-    background-color: rgb(79, 80, 81);
+    background-color: rgb(89, 131, 172);
     padding: 10px;
     border-radius: 10px;
     color: #fff;
