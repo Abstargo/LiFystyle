@@ -1,8 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from './ExampleCarouselImage';
 import s from './img1.jpg'
-import d from './img1.jpg'
+import S1 from './S1.jpg'
 export default function Content()
 {
     
@@ -24,7 +23,7 @@ export default function Content()
       <Carousel.Item>
         <img
           className="slides"
-          src={s}
+          src={S1}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -35,7 +34,7 @@ export default function Content()
       <Carousel.Item>
         <img
           className="slides"
-          src={d}
+          src={s}
           alt="Third slide"
         />
         <Carousel.Caption>

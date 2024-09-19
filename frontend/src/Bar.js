@@ -2,6 +2,7 @@ import React from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { MdFavoriteBorder } from "react-icons/md";
 import { RiShoppingBag4Fill } from "react-icons/ri";
+import { FaShoppingCart } from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -35,7 +36,7 @@ export default function Bar({ handleClick, user })
                     </svg><input className="input" type="search" placeholder="Search" /> 
             </div>
             <MdFavoriteBorder className="fav"/>
-            
+            <FaShoppingCart className="bag" />
             {user ? (
               <div className="d-flex align-items-center">
                 <FaUserCircle className="us" />

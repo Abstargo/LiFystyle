@@ -9,88 +9,7 @@ export default function Foot()
               <footer className="footer">
                     <div className="footer__addr">
                         <h1 className="footer__logo">LiFyStyle</h1>
-                            <h2>Contact</h2>  
-                               <address>
-                                  5534 Somewhere In. The World 22193-10212<br />
-          
-                                <a className="footer__btn" href="mailto:example@gmail.com">Email Us</a>
-                              </address>
-                    </div>
-  
-                    <ul className="footer__nav">
-                      <li className="nav__item">
-                        <h2 className="nav__title">Men</h2>
-
-                        <ul className="nav__ul">
-                          <li>
-                            <a href="#">Jeans</a>
-                          </li>
-
-                         <li>
-                            <a href="#">Jumpers</a>
-                          </li>
-                    
-                          <li>
-                            <a href="#">Leather</a>
-                          </li>
-                          <li>
-                            <a href="#">Shorts</a>
-                          </li>
-                          <li>
-                            <a href="#">Boots</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="nav__item">
-                        <h2 className="nav__title">Women</h2>
-
-                        <ul className="nav__ul">
-                          <li>
-                            <a href="#">Dresses</a>
-                          </li>
-
-                         <li>
-                            <a href="#">Jumpsuites</a>
-                          </li>
-                    
-                          <li>
-                            <a href="#">Shirts</a>
-                          </li>
-                          <li>
-                            <a href="#">T-shirts</a>
-                          </li>
-                          <li>
-                            <a href="#">Coats</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="nav__item">
-                        <h2 className="nav__title">Kids</h2>
-
-                        <ul className="nav__ul">
-                          <li>
-                            <a href="#">Shirts</a>
-                          </li>
-
-                         <li>
-                            <a href="#">T-shirts</a>
-                          </li>
-                    
-                          <li>
-                            <a href="#">Polos</a>
-                          </li>
-                          <li>
-                            <a href="#">Sweaters</a>
-                          </li>
-                          <li>
-                            <a href="#">Jackets</a>
-                          </li>
-                        </ul>
-                      </li>
-            
-              
-            
-            <li className="nav__item">
+                        
               <h2 className="nav__title">Follow us</h2>
               <ul className="example-2">
   <li className="icon-content">
@@ -184,7 +103,89 @@ export default function Foot()
 </ul>
 
               
-            </li>
+            
+                      </div>
+  
+                    <ul className="footer__nav">
+                      <li className="nav__item">
+                        <h2 className="nav__title">Men</h2>
+
+                        <ul className="nav__ul">
+                          <li>
+                            <a href="#">Jeans</a>
+                          </li>
+
+                         <li>
+                            <a href="#">Jumpers</a>
+                          </li>
+                    
+                          <li>
+                            <a href="#">Leather</a>
+                          </li>
+                          <li>
+                            <a href="#">Shorts</a>
+                          </li>
+                          <li>
+                            <a href="#">Boots</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="nav__item">
+                        <h2 className="nav__title">Women</h2>
+
+                        <ul className="nav__ul">
+                          <li>
+                            <a href="#">Dresses</a>
+                          </li>
+
+                         <li>
+                            <a href="#">Jumpsuites</a>
+                          </li>
+                    
+                          <li>
+                            <a href="#">Shirts</a>
+                          </li>
+                          <li>
+                            <a href="#">T-shirts</a>
+                          </li>
+                          <li>
+                            <a href="#">Coats</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="nav__item">
+                        <h2 className="nav__title">Kids</h2>
+
+                        <ul className="nav__ul">
+                          <li>
+                            <a href="#">Shirts</a>
+                          </li>
+
+                         <li>
+                            <a href="#">T-shirts</a>
+                          </li>
+                    
+                          <li>
+                            <a href="#">Polos</a>
+                          </li>
+                          <li>
+                            <a href="#">Sweaters</a>
+                          </li>
+                          <li>
+                            <a href="#">Jackets</a>
+                          </li>
+                        </ul>
+                      </li>
+                      
+                        <div className="about">
+                        <div className="ab" >
+                        <h2 className="nav__title">About Us</h2>
+                        <p>Lifystyle is a start-up for selling second hand clothes, the project is an inspiration from the retail sellers that 
+                          help people buy good clothes for a small price but the problems here is the clients when they are looking 
+                          for the right item to buy they have to go on a lot of searching to find what they want also there is the geographical location struggle that they face,
+                           all of this issues Lifystyle solve them with ease and provides more features to help people to truly enjoy shopping.</p>
+                        </div>
+                        </div>
           </ul>
           
           <div className="legal">
