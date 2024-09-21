@@ -40,7 +40,6 @@ export default function Bar({ handleClick, user })
             {user ? (
               <div className="d-flex align-items-center">
                 <FaUserCircle className="us" />
-                <p className="mb-0 ms-2">{`Hello Again`}</p>
               </div>
             ) : (
               <div className="si"><button className="btn" onClick={handleClick}>Sign-In</button></div>
@@ -49,4 +48,5 @@ export default function Bar({ handleClick, user })
         </Container>
       </Navbar>
     )
-}
+  }
+  /*<p className="mb-0 ms-2">{`Hello Again`}</p>*/

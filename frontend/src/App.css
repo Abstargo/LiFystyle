@@ -106,7 +106,12 @@
  } 
 
 .us {
-    color: rgb(136, 135, 135);
+  font-size: 35px;
+  font-weight: 200;
+  color: rgb(136, 135, 135);
+  margin-left: 10px;
+  margin-right: 3px;
+  position: relative;
 }
 
 .fav {

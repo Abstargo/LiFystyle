@@ -189,7 +189,7 @@ export default function Foot()
           </ul>
           
           <div className="legal">
-            <p>&copy; 2019 Something. All rights reserved.</p>
+            <p>&copy; 2024 Something. All rights reserved.</p>
             
             
           </div>
