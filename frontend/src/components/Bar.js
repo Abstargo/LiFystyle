@@ -6,7 +6,10 @@ import { FaShoppingCart } from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import t from './logoo.png'
+import t from '../assests/images/logoo.png';
+
+import '../assests/styles/icons.css'
+import '../assests/styles/Navbar.css'
 
 export default function Bar({ handleClick, user })
 {
@@ -24,9 +27,9 @@ export default function Bar({ handleClick, user })
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="f1" href="#Men">Men</Nav.Link>
-              <Nav.Link className="f1" href="#Women">Women</Nav.Link>
-              <Nav.Link className="f1" href="#Kids">Kids</Nav.Link>
+              <Nav.Link className="N1" href="#Men">Men</Nav.Link>
+              <Nav.Link className="N1" href="#Women">Women</Nav.Link>
+              <Nav.Link className="N1" href="#Kids">Kids</Nav.Link>
             </Nav>
             <div className="group">
               <svg className="icon" aria-hidden="true" viewBox="0 0 24 24">

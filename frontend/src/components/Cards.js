@@ -1,8 +1,9 @@
 import React from "react";
-import Image from './pexels-godisable-jacob-226636-914668(1).jpg'
-import G1 from './G1.jpg'
-import D1 from './D1.jpg'
-import SS from './SS.jpg'
+import Image from '../assests/images/pexels-godisable-jacob-226636-914668(1).jpg'
+import G1 from '../assests/images/G1.jpg'
+import D1 from '../assests/images/D1.jpg'
+import SS from '../assests/images/SS.jpg'
+import '../App.css'
 
 export default function Cards()
 {

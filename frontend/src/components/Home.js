@@ -8,7 +8,7 @@ import Cards from "./Cards";
 import Card0 from "./Card0";
 import Foot from "./Foot";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import '../App.css';
 
 export default function Home({ user }) {
 

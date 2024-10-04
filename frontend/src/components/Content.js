@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import s from './img1.jpg'
-import S1 from './S1.jpg'
+import s from '../assests/images/img1.jpg'
+import S1 from '../assests/images/S1.jpg'
 export default function Content()
 {
     

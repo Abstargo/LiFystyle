@@ -1,0 +1,20 @@
+/*        Banner         */
+.banner
+  {
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: #acacac;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: inherit;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+          rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
+  .h {
+    text-align: center;
+    color: #f0efef;
+  }

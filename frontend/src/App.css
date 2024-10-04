@@ -60,7 +60,7 @@
   }
   
 
-  /* Search input */ 
+  /* Search input
 
 .group {
   display: flex;
@@ -96,7 +96,8 @@
   background-color: #fff;
   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
  }
- 
+ */
+ /* icons 
  .icon {
   position: absolute;
   left: 1rem;
@@ -130,7 +131,7 @@
     margin-left: 10px;
     margin-right: 0px;
 }
-
+*/
 /**/
 .form-container {
     width: 350px;
@@ -266,8 +267,7 @@
     margin-bottom: 1px;
   }
 
-  /****************      Banner      ******************/
-
+  /****************           
   .banner
   {
     box-sizing: border-box;
@@ -288,8 +288,9 @@
     color: #f0efef;
   }
 
+ ******************/
 
-  /****************     Footer      ***************/
+  /****************     Footer      
 
   *, *:before, *:after {
     box-sizing: border-box;
@@ -420,7 +421,7 @@
     }
   }
 
-  /*********   Follow ***************/
+ Follow 
   ul {
     list-style: none;
   }
@@ -539,7 +540,7 @@
   margin: auto;
 }
 
-/* About us*/
+About us
 .about{
   position: relative;
   background-color: #5364ae;
@@ -553,3 +554,40 @@
   position: relative;
   margin-top: 10px;
 }
+  ***************/
+
+.slides
+{
+  width: 100%;
+  height: 30rem;
+}
+
+.cdb 
+{
+  border-radius: 9px;
+  border-width: 2px;
+  width: 10rem;
+  display: block;
+  margin: auto;
+}
+
+/*        Banner         */
+.banner
+  {
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: #acacac;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: inherit;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+          rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
+  .h {
+    text-align: center;
+    color: #f0efef;
+  }

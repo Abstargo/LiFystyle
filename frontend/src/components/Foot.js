@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../assests/styles/Footer.css'
 
 export default function Foot()
 {

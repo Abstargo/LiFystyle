@@ -1,10 +1,10 @@
 // src/App.js
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import SignIn from './SignIn';
-import SignUp from './SignUp';
-import UserList from './UserList';
+import Home from './components/Home.js';
+import SignIn from './components/SignIn.js'
+import SignUp from './components/SignUp.js';
+import UserList from './components/UserList.js';
 
 function App() {
 

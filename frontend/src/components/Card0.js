@@ -1,8 +1,8 @@
 import React from "react";
-import f2 from './pexels-chloekalaartist-1043474.jpg'
-import f1 from "./R2.jpg"
-import W1 from './W1.jpg'
-
+import f2 from '../assests/images/pexels-chloekalaartist-1043474.jpg'
+import f1 from "../assests/images/R2.jpg"
+import W1 from '../assests/images/W1.jpg'
+import '../App.css'
 export default function Card0()
 {
    return (
